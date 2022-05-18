@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple scrum</title>
+</head>
+<body>
+    
+   <header>
+       <div class="header-container">
+           <img src="/logo.svg" alt="Logo principal">
+           <button id="newtasks" class="button" >crear tarea</button>
+       </div>
+   </header>
+   <main>
+     <div class="main-container">
+         <h1>Simple Scrum</h1>
+         <div class="container">
+             <h2>TO DO</h2>
+             <div class="task-container">
+                 <article class="tasks">
+                     <h3>Crear JSON del proyecto</h3>
+                     <p>Responsable: <span>Carlos Giraldo</span></p>
+                     <p>Plazo: <span>05/06/2020</span></p>
+                 </article>
+             </div>
+             <div class="task-container">
+                 <article class="tasks">
+                     <h3>Crear JSON del proyecto</h3>
+                     <p>Responsable: <span>Carlos Giraldo</span></p>
+                     <p>Plazo: <span>05/06/2020</span></p>
+                 </article>
+             </div>
+             <div class="task-container">
+                 <article class="tasks">
+                     <h3>Crear JSON del proyecto</h3>
+                     <p>Responsable: <span>Carlos Giraldo</span></p>
+                     <p>Plazo: <span>05/06/2020</span></p>
+                 </article>
+             </div>
+         </div>
+         <div class="container">
+             <h2>IN PROGRESS</h2>
+             <div class="task-container">
+                 <article class="tasks">
+                     <h3>Crear JSON del proyecto</h3>
+                     <p>Responsable: <span>Carlos Giraldo</span></p>
+                     <p>Plazo: <span>05/06/2020</span></p>
+                 </article>
+             </div>
+         </div>
+         <div class="container">
+             <h2>DONE</h2>
+             <div class="task-container">
+                 <article class="tasks">
+                     <h3>Crear JSON del proyecto</h3>
+                     <p>Responsable: <span>Carlos Giraldo</span></p>
+                     <p>Plazo: <span>05/06/2020</span></p>
+                 </article>
+             </div>
+             <div class="task-container">
+                 <article class="tasks">
+                     <h3>Crear JSON del proyecto</h3>
+                     <p>Responsable: <span>Carlos Giraldo</span></p>
+                     <p>Plazo: <span>05/06/2020</span></p>
+                 </article>
+             </div>
+         </div>
+     </div>
+   </main>
+   <aside>
+       <div class="aside-container">
+           <h2>Nueva Tarea</h2>
+           <div class="form-contaier">
+               <form >
+                <div class="input-container">
+                    <label for="TitleTask">Título</label>
+                    <input  id="title-task" type="text" placeholder="Escriba un título descriptivo ">
+                </div>
+                <div class="input-container">
+                <label for="personTask">Responsable</label>
+                <select name="personTask" id="personTask">
+                    <option value="">Seleccionar</option>
+                    <option value="carlos">Carlos Giraldo</option>
+                    <option value="alejandra">Alejandra Giraldo</option>
+                    <option value="Elena">Elena Ramírez</option>
+                </select>
+                </div>
+                <div class="input-container">
+                <label for="deadLineTask">Plazo de entrega</label>
+                <select name="deadLineTask" id="deadLineTask">
+                    <option value="">Seleccionar</option>
+                    <option value="one">1 día</option>
+                    <option value="two">2 días</option>
+                    <option value="seven">7 días</option>
+                </select>
+                </div>
+                <div class="action-container">
+                    <button type="submit" >Guardar</button>
+                    <button type="reset" >Cancelar</button>
+                </div>
+               </form>
+           </div>
+       </div>
+   </aside>
+
+</body>
+</html>
