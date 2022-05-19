@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
     <title>Simple scrum</title>
 </head>
 <body>
@@ -11,7 +13,7 @@
    <header>
        <div class="header-container">
            <img src="/logo.svg" alt="Logo principal">
-           <button id="newtasks" class="button" >crear tarea</button>
+           <button id="newTask" class="button" >crear tarea</button>
        </div>
    </header>
    <main>
@@ -31,8 +33,8 @@
              
      </div>
    </main>
-   <aside>
-       <div class="aside-container">
+   <aside class="" id="formElement">
+       <div class="aside-container " >
            <h2>Nueva Tarea</h2>
            <div class="form-contaier">
                <form >
@@ -60,7 +62,7 @@
                 </div>
                 <div class="action-container">
                     <button type="submit" >Guardar</button>
-                    <button type="reset" >Cancelar</button>
+                    <button type="reset" id="cancelForm" >Cancelar</button>
                 </div>
                </form>
            </div>
@@ -70,6 +72,7 @@
    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
    <script src="https://momentjs.com/downloads/moment.js"></script>
 
+   <script src="/scripts/helpers.js"></script>
    <script src="/scripts/dates.js"></script>
    <script src="/scripts/petitions.js"></script>
 </body>

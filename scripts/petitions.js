@@ -8,6 +8,7 @@ axios.get(API_URL)
 function fillTasks(data){
     data.map(d => {
         let newTask = document.createElement("article")
+        newTask.classList.add("task")
         let taskTitle = document.createElement("h3")
         taskTitle.innerText = d.title
 
