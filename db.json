@@ -1,21 +1,21 @@
 {
     "tasks": [
         {"id": 1, 
-            "tilte": "Crear JSON para el proyecto",
+            "title": "Crear JSON para el proyecto",
             "person": "carlos",
             "state": "to-do",
             "deadLine": 1653255347,
             "created": 1652823347
         },
         {"id": 2, 
-            "tilte": "Crear JSON 2 para el proyecto",
+            "title": "Crear JSON 2 para el proyecto",
             "person": "carlos",
-            "state": "in-progess",
+            "state": "in-progress",
             "deadLine": 1653255347,
             "created": 1652823347
         },
         {"id": 3, 
-            "tilte": "Crear JSON 3 para el proyecto",
+            "title": "Crear JSON 3 para el proyecto",
             "person": "carlos",
             "state": "done",
             "deadLine": 1653255347,
