@@ -20,6 +20,41 @@
             "state": "done",
             "deadLine": 1653255347,
             "created": 1652823347
+        },
+        {"id": 3, 
+            "title": "Crear JSON 3 para el proyecto",
+            "person": "carlos",
+            "state": "done",
+            "deadLine": 1653255347,
+            "created": 1652823347
+        },
+        {"id": 4, 
+            "title": "Actualizar el db del proyecto",
+            "person": "carlos",
+            "state": "done",
+            "deadLine": 1653255347,
+            "created": 1652823347
+        },
+        {"id": 5, 
+            "title": "Actulizar el commit en GitHUb",
+            "person": "carlos",
+            "state": "in-progress",
+            "deadLine": 1653255347,
+            "created": 1652823347
+        },
+        {"id": 6, 
+            "title": "Activar la funcion crear tarea",
+            "person": "carlos",
+            "state": "to-do",
+            "deadLine": 1653255347,
+            "created": 1652823347
+        },
+        {"id": 7, 
+            "title": "SEguir con el diplomado WEB",
+            "person": "carlos",
+            "state": "to-do",
+            "deadLine": 1653255347,
+            "created": 1652823347
         }
         
     ]
