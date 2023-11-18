@@ -358,7 +358,7 @@ template {
 body {
   width: 100%;
   height: 100vh;
-  background: #F6F8F9;
+  background: #92d8fb;
   font-family: sans-serif;
   color: var(--normal-text);
   overflow: hidden;
