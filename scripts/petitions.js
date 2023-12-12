@@ -1,3 +1,4 @@
+// Cambiar el JSON por un MYSQL
 const API_URL = "https://my-json-server.typicode.com/carlosgi9425/simplescrum/tasks"
 
 
@@ -7,6 +8,7 @@ axios.get(API_URL)
 
 function fillTasks(data){
     data.map(d => {
+        // falta crear la unfción guardar nueva tarea
         let newTask = document.createElement("article")
         newTask.classList.add("task")
         let taskTitle = document.createElement("h3")
